@@ -1,0 +1,13 @@
+class employee:
+    def __init__(self,name,sal):
+        self.name = name
+        self.sal = sal
+
+    def display(self):
+        print(f'employee name:{self.name} and salary {self.sal}')
+
+e1 = employee('dhruvi',90000)
+e1.display()
+
+e2 = employee('trisha',95005)
+e2.display()

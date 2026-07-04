@@ -1,0 +1,31 @@
+class student:                          #class name is student
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+obj1 = student('dhruvi',20)             #object name is obj1
+print(f"student name: {obj1.name} and age: {obj1.age}")
+
+#book example
+class book:
+    def __init__(self,title,author):
+        self.title = title
+        self.author = author
+book1 = book("pyhton","abc")
+print(f"the name of the book is {book1.title} and the author is {book1.author}")
+
+
+#print data using the method
+class employee:
+    def __init__(self,name,sal):
+        self.name = name
+        self.sal = sal
+
+    def display(self):
+        print(f'employee name:{self.name} and salary {self.sal}')
+
+e1 = employee('dhruvi',90000)
+e1.display()
+
+e2 = employee('trisha',95005)
+e2.display()
